@@ -1,0 +1,46 @@
+@media(max-width: 375px){
+  
+  body{
+    padding: 20px;
+  }
+  .container{
+   display: flex;
+   flex-direction: column;
+
+   .prod-image{
+    img{
+      border-radius: 20px 20px 0 0;
+    }
+   }
+
+   #main-content{
+    border-radius: 0 0 20px 20px;
+
+    .primary-title{
+      font-size: 1.7rem;
+      margin: 1rem 0;
+    }
+    .product-content{
+      font-size: 0.9rem;
+    }
+
+    ul{
+      .special-price{
+        font-size: 2rem;
+      }
+    }
+
+   }
+
+   .btn{
+    padding: 15px;
+   }
+   
+  }
+
+  footer{
+    margin-bottom: 30px;
+  }
+
+
+}
