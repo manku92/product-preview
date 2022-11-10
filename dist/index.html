@@ -7,38 +7,56 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Product Preiview">
   <title>Product Preview</title>
+  <link rel="icon" href="./images/favicon-32x32.png" sizes="32x32" type="image/png">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
 </head>
 
 <body>
 
 
-  <div class="container">
 
-    <!-- grid item 1 -->
-    <section class="prod-image">
-      <img src="./images/image-product-desktop.jpg" alt="product image">
-    </section>
+  <main class="container">
 
-    <!-- grid item 2 -->
-    <section id="main-content">
-      <h2 class="secondary-title">PERFUME</h2>
-      <h1 class="primary-title">Gabrielle Essence Eau De Parfume</h1>
-      <p class="product-content">A floral, solar and voluptuous interpretation composed by Oliver Poige,
-        Perfumer-Creator for the House of CHANEL.</p>
-      <ul>
-        <li class="special-price">$149.99</li>
-        <li class="original-price">$169.99</li>
-      </ul>
-      <button type="submit" class="btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
-    </section>
+    <!-- flex content -->
+    <div class="item flex-content">
 
-  </div>
+      <header>
+        <h3>Perfume</h3>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+      </header>
 
+      <article>
+        <p>A floral, solar and voluptuous interpretation composed by Oliver Polge, Perfumer-Creator for the House of
+          CHANEL</p>
+      </article>
+
+      <div class="new-old">
+        <p class="new">$149.99</p>
+        <p class="old">$169.99</p>
+      </div>
+
+
+      <a href="#"><img src="./images/icon-cart.svg" alt="">Add to Cart</a>
+
+    </div>
+
+
+    <!-- flex image -->
+
+    <div class="item flex-image">
+      <img src="./images/image-product-desktop.jpg" alt="">
+    </div>
+
+
+  </main>
   <footer>
-    <p>Copyright &copy; 2022 | Kurt Mani</p>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Kurt Mani</a>.
   </footer>
+
+
+
+
 
 
 </body>
