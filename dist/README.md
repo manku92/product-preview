@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [git hub](https://github.com/manku92/product-preview.git)
-- Live Site URL: [netlifty](https://resplendent-tapioca-63ad63.netlify.app/)
+- Solution URL: [Github](https://github.com/manku92/product-preview.git)
+- Live Site URL: [Netlifty](https://resplendent-tapioca-63ad63.netlify.app/)
 
 ## My process
 
@@ -52,6 +52,6 @@ This lesson i learnt how to center the whole container on the body. By setting t
 ## Author
 
 - Website - [Kurt Mani](https://www.your-site.com)
-- Frontend Mentor - [@ymanku92](https://www.frontendmentor.io/profile/manku92)
+- Frontend Mentor - [@manku92](https://www.frontendmentor.io/profile/manku92)
 
 
