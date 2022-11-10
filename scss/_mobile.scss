@@ -1,8 +1,56 @@
 @media(max-width: 420px) {
 
- .container{
-  flex-direction: column-reverse;
- }
- 
+  body {
+    padding: 2rem;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .flex-image {
+    img {
+      border-radius: 12px 12px 0 0;
+    }
+  }
+
+  .flex-content {
+    header {
+      h3 {
+        font-size: 0.85rem;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+    }
+
+    article {
+      p {
+        font-size: 0.85rem;
+      }
+    }
+
+    .new-old {
+      .new {
+        font-size: 1.8rem;
+      }
+    }
+
+    a{
+      padding: 1rem;
+    }
+  }
+
+  footer{
+    font-size: 0.85rem;
+  }
+
+
+
+
+
+
+
 
 }
